@@ -15,5 +15,6 @@ public class Car {
  @Override
  public String toString(){
 	 return super.toString()+"My color is "+this.color+" and I have "+this.numberOfDoors+" doors.";
- }
+ } 
+ public void display(){System.out.println("Wow branch3");}
 }
