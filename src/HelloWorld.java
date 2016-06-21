@@ -1,4 +1,4 @@
-
+import java.util.*;
 public class HelloWorld {
 
 	public static void main(String[] args) {
@@ -19,6 +19,10 @@ public class HelloWorld {
 		
 		System.out.println(car1.toString());
 		System.out.println(car2.toString());
+		
+		ArrayList<Integer> friends = new ArrayList<Integer>();
+		friends.add(5);
+		System.out.println(friends.toString());
 
 	}
 
